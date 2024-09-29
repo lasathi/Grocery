@@ -68,6 +68,7 @@ nav {
 /* Product description Start css */
 .prdct h1{
     text-align: center;
+    font-size: 40px;
     font-family: "Poppins", sans-serif;
 } 
 .Product-box {
@@ -126,3 +127,27 @@ nav {
     transform: scale(1.1);
 }
 /* Product description End css */
+/* Collection Start */
+    .sect {
+        margin-top: 180px;
+    }
+/* Collection End */
+.Collection-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 200px;
+}
+.clect-boxsize {
+    height: 180px;
+    width: 140px;
+}
+.clect-img img {
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+}
+.clect-p p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 21px;
+}
