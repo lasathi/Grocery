@@ -1,4 +1,4 @@
-body {
+* {
     font-family: "poppins";
 }
 .fast-nav {
@@ -65,3 +65,64 @@ nav {
 .banner {
     margin-top: 30px;
 }
+/* Product description Start css */
+.prdct h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+} 
+.Product-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 200px;
+    padding: 0px;
+    column-gap: 5px;
+}
+.border-line {
+    height: 355px;
+    width: 210px;
+    margin: 10px;
+    border: 1px solid #dddada;
+}
+.prdt-img img {
+    height: 190px;
+    width: 190px;
+    margin: 10px;
+}
+.prdt-p p {
+    text-align: center;
+    
+}
+.prdt-p p:hover{
+    color: #bab8b8;
+}
+.prdt-tk {
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.prdt-tk-through {
+    margin-left: 20px;
+    display: flex;
+    margin-top: -20px;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.space {
+    margin-left: 8px;
+}
+.prdt-btn {
+    margin-left: 26px;
+}
+.btn {
+    background-color: #FC8934;
+    color: #ffffff;
+    width: 150px;
+    padding: 13px 32px;
+    /* margin: 0 0 20px 0; */
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+/* Product description End css */
